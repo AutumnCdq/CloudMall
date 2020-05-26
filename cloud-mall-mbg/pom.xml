@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.autumnwen.suzhou.cloud.mall</groupId>
+        <artifactId>cloudmall</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>cloud-mall-mbg</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>cloud-mall-mbg</name>
+    <packaging>jar</packaging>
+    <description>苏州云商 -- cloud-mall-mbg</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.autumnwen.suzhou.cloud.mall</groupId>
+            <artifactId>cloud-mall-common</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.mybatis.generator</groupId>
+            <artifactId>mybatis-generator-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>
